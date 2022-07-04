@@ -1,0 +1,59 @@
+.mainDashBoard{
+	background-color: #fff;
+
+}
+
+.DashBoardBody{
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	height: 100vh;
+}
+
+.dashBoardLeft{
+	background-color: #0046FD;
+	padding: 15px 0 0 50px;
+
+}
+.dashBoardRight{
+	background-color: #fff;
+}
+
+.dashLogo{
+	margin-bottom: 60px;
+}
+.dashBoardLeft aside ul li {
+	color: #fff ;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	padding: 10px 1px;
+	transition: .3s;
+	padding: 10px 0 10px 20px;
+	border-radius: 25px 0 0 25px;
+}
+.dashBoardLeft aside ul li a{
+	color: #fff ;
+	padding-left: 20px;
+	text-decoration: none;
+}
+.dashBoardLeft aside ul li a:hover{
+	color: #0046FD !important;
+}
+.dashBoardLeft aside ul li:hover{
+	background-color: #fff;
+	color: #0046FD !important;
+	cursor: pointer;
+}
+
+.dashBoardLeft aside ul{
+	padding: 0;
+	margin:0
+}
+
+
+
+.h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70vh;
+}

@@ -21,4 +21,8 @@ code {
   text-decoration: none;
   list-style-type: none;
 }
-
+ ul{
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+}

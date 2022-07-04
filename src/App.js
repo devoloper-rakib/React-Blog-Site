@@ -13,7 +13,6 @@ function App() {
 	return (
 		<>
 			<BrowserRouter>
-				<Navbar />
 				<Routes>
 					<Route path='/' element={<Home />}></Route>
 					<Route path='/article' element={<Home />}></Route>
@@ -22,12 +21,6 @@ function App() {
 					<Route path='/:title' element={<SinglePost />} />
 					<Route path='*' element={<Error404 />} />
 					<Route path='/login' element={<Login />} />
-				</Routes>
-				<Footer />
-			</BrowserRouter>
-
-			<BrowserRouter>
-				<Routes>
 					<Route path='/dashBoard' element={<DashBoard />} />
 				</Routes>
 			</BrowserRouter>

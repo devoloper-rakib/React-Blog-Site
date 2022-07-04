@@ -1,8 +1,8 @@
 import React from 'react';
 import Style from './Button.module.css';
-const Button = ({ text, style }) => {
+const Button = ({ text, style, handleDirect }) => {
 	return (
-		<button style={style} className={Style.button}>
+		<button onClick={handleDirect} style={style} className={Style.button}>
 			{text}
 		</button>
 	);

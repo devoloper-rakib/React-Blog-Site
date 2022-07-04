@@ -1,13 +1,20 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Navigate, useNavigate } from 'react-router-dom';
 import Button from '../../Common/Button/Button';
+import Footer from '../Footer/Footer';
+import Navbar from '../Navbar/Navbar';
 
 import Input from './Input';
 
 const Login = () => {
-	const [toggle, setToggle] = useState(true);
+	const navigate = useNavigate();
+	const handleDirect = () => {
+		navigate('/dashBoard', { replace: true });
+	};
+	const [toggle, setToggle] = useState(false);
 	return (
 		<>
+			<Navbar />
 			<div className='loginBody'>
 				<div className='loginMain'>
 					<div className='login_upper'>
@@ -51,10 +58,12 @@ const Login = () => {
 									placeholder='Enter Your Password...'
 								/>{' '}
 							</div>
-							<Link to='/dashBoard'>
-								{' '}
-								<Button style={{ width: '100%' }} text='LOG IN' />
-							</Link>
+
+							<Button
+								handleDirect={handleDirect}
+								style={{ width: '100%' }}
+								text='LOG IN'
+							/>
 						</div>
 					)}
 
@@ -73,6 +82,7 @@ const Login = () => {
 					</div>
 				</div>
 			</div>
+			<Footer />
 		</>
 	);
 };
