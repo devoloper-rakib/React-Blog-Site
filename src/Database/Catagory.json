@@ -1,0 +1,31 @@
+[
+	{
+		"Category" : "Science",
+		"NumberOfPost" : 22
+	},
+	{
+		"Category" : "MindSet",
+		"NumberOfPost" : 10
+	},{
+		"Category": "Artificial intelligence",
+		"NumberOfPost": 15
+	},{
+		"Category": "React ",
+		"NumberOfPost": 20
+	},{
+		"Category": "Blockchain",
+		"NumberOfPost":25
+	},{
+		"Category": "Computing",
+		"NumberOfPost":30
+	},{
+		"Category":"Tech policy",
+		"NumberOfPost": 1
+	},{
+		"Category":"Web Developing",
+		"NumberOfPost": 10
+	},{
+		"Category":"Technology background vector",
+		"NumberOfPost":13
+	}
+]

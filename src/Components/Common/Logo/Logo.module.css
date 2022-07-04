@@ -1,0 +1,21 @@
+.logo{
+	color: #fff;
+	font-size: 2rem;
+	text-decoration: none;
+	margin-right: 50px;
+	letter-spacing: 3px;
+	font-weight: 800;
+	transition: all .3s;
+}
+.logo:hover{
+	background: -webkit-linear-gradient(#eee, #333);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: all .3s;
+}
+.logo span{
+	background: -webkit-linear-gradient(#eee, #333);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: all .3s;
+}

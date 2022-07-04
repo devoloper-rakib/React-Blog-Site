@@ -1,0 +1,227 @@
+.latest{
+	border-bottom: 1px solid red;
+	padding-bottom: 10px;
+	font-weight: 800;
+	font-style: italic;
+	letter-spacing: 2px;
+}
+/* post data style */
+
+.SinglePost{
+	margin: 30px 0;
+}
+.SinglePost .PostImg{
+	width: 100%;
+}
+
+.SinglePost .PostImg img{
+	width: 100%;
+	height: 550px;
+}
+
+.PostButton{
+	color: #ffd369;
+	text-decoration: none;
+	padding: 13px 15px;
+	border: 1px solid #ffd369;
+	background-color: none;
+	margin: 10px 0;
+	display: inline-block;
+	border-radius: 10px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-style: oblique;
+	background-color:none;
+	font-size: 1.3rem;
+	transition: all .3s;
+}
+
+.PostButton:hover{
+	color: #fff;
+	background-color: #ffd369;
+	border: 1px solid #fff;
+	transition: all .3s;
+}
+
+.PostText .postTitle{
+	text-transform: capitalize;
+	color: #000;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin: 10px 0;
+}
+
+.PostText .postDescription{
+	color: #000;
+	font-size: 1.1rem;
+	margin: 10px 0;
+	line-height: 30px;
+	word-spacing: 3px;
+	letter-spacing: 1px;
+}
+
+.author{
+	display: flex;
+	margin: 20px 0;
+}
+
+.author .authorDis{
+	margin: 10px 0px 0 30px;
+}
+
+.author .authorDis p{
+	color: #000;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+
+@media only screen and (max-width:600px){
+	
+.SinglePost{
+	margin: 80px 0;
+}
+.SinglePost .PostImg{
+	width: 100%;
+}
+
+.SinglePost .PostImg img{
+	width: 100%;
+	height: 250px;
+}
+
+.PostButton{
+	padding: 8px 10px;
+	font-size: 1rem;
+}
+
+
+
+.PostText .postTitle{
+	font-weight: 700;
+}
+
+.PostText .postDescription{
+	font-size: 0.875rem;
+	line-height: 26px;
+}
+
+.author{
+	display: flex;
+	margin: 20px 0;
+}
+
+
+
+.author .authorDis p{
+
+	font-size: 0.785rem;
+}
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:992px){
+	
+	.SinglePost{
+		margin: 80px 0;
+	}
+	.SinglePost .PostImg{
+		width: 100%;
+	}
+	
+	.SinglePost .PostImg img{
+		width: 100%;
+		height: 250px;
+	}
+	
+	.PostButton{
+		padding: 8px 10px;
+		font-size: 1rem;
+	}
+	
+	
+	
+	.PostText .postTitle{
+		font-weight: 700;
+	}
+	
+	.PostText .postDescription{
+		font-size: 0.875rem;
+		line-height: 26px;
+	}
+	
+	.author{
+		display: flex;
+		margin: 20px 0;
+	}
+	
+	
+	
+	.author .authorDis p{
+	
+		font-size: 0.785rem;
+	}
+	
+	}
+
+
+
+
+/* single post  */
+.singlePostContainer{
+	width: 84%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.singleImages{
+	width: 100%;
+	height: 100%;
+}
+
+.singleImages img{
+	width: 100%;
+	height: 600px;
+	margin: 20px 0;
+}
+
+.singlePostContainer h1{
+	text-transform: capitalize;
+	margin: 30px 0;
+}
+
+.singlePostContainer p{
+	margin: 20px 0;
+	font-size: 1.2rem;
+	line-height: 36px;
+	text-align: justify;
+}
+
+@media only screen and (max-width:600px){
+
+	.singlePostContainer{
+		width: 95%;
+		text-align: justify;
+	}
+	
+	
+	.singleImages img{
+		width: 100%;
+		height: 300px;
+		margin: 20px 0;
+	}
+	
+	.singlePostContainer p{
+		margin: 50px 0;
+		font-size: 1rem;
+		line-height: 28px;
+	}
+
+
+}

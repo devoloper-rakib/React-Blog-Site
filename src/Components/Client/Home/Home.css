@@ -1,0 +1,25 @@
+.BlogPostMain{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap:60px;
+}
+
+@media only screen and (max-width:600px){
+	.PostRight{
+		display: none;
+	}
+	.BlogPostMain{
+		grid-template-columns: 1fr;
+		grid-gap:0px;
+	}
+}
+
+@media only screen and (max-width:740px){
+	.PostRight{
+		display: none;
+	}
+	.BlogPostMain{
+		grid-template-columns: 1fr;
+		grid-gap:0px;
+	}
+}

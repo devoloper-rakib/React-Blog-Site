@@ -1,0 +1,21 @@
+.button{
+font-size: 1.3rem;
+font-weight: 700;
+color: #fff;
+background-color: #ffd369;
+padding: 13px 19px;
+outline: none;
+border:none;
+letter-spacing: 3px;
+font-style: oblique;
+border-radius: 15px;
+transition: all .4s;
+margin: 10px 0;
+}
+
+.button:hover{
+	background-color: #000;
+	color: #ffd369;
+	transition: all .4s;
+	
+}
